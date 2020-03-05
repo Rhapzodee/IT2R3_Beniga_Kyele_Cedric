@@ -1,0 +1,149 @@
+body{
+	margin: 0px;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	background-color: #110f15;
+}
+
+.nav{
+	background-color: #00000000;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.nav > li{
+	display: inline-block;
+    padding: 0 25px 0 25px;
+    float: right;
+    margin-right: 59px;
+}
+
+.nav > li > a{
+	text-decoration: none;
+	color: #c0450d;
+}
+
+.nav > li > a:hover{
+	color: #c1c1c1;
+}
+
+.logo{
+	width: 113px;
+    margin-top: -39px;
+    float: left;
+}
+
+.container{
+	position: relative;
+  	text-align: center;
+
+}
+
+.bg{
+	width:1920px;
+	height: 1080px;
+}
+
+.text{
+	position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: #fcfdf8;
+    background-color: #1844711f;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 68px;
+    padding-top: 41px;
+}
+
+section.about-section {
+    background-color: #882b22;
+    display: inline-block;
+}
+
+.about-text {
+    margin-right: 55%;
+    padding-right: 1%;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 14px;
+}
+
+img.about-bg {
+    width: 25%;
+    margin-top: -441px;
+    margin-bottom: 55px;
+    margin-right: 219px;
+    float: right;
+}
+
+a.button{
+    text-decoration: none;
+    float: right;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 0px;
+    color: black;
+}
+
+.services-text {
+    float: left;
+    padding: 100px;
+    width: 408px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+section.services-section {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+}
+
+section.services-section {
+    border-top: solid 6px;
+    background-color: #2d2926ff;
+}
+
+a.abutton{
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 0px;
+    color: white;
+}
+
+i.fa.fa-user-circle {
+    font-size: 70px;
+}
+
+i.fa.fa-fire {
+    font-size: 70px;
+}
+
+i.fa.fa-address-book {
+    font-size: 70px;
+}
+
+header.services-header {
+    color: white;
+}
